@@ -1,8 +1,6 @@
 import React from "react";
 
 export const PokemonCard = ({ id, name, sprites = [] }) => {
-  console.log(id, name);
-
   return (
     <section style={{ height: 200 }}>
       <h2 className="text-capitalize">
