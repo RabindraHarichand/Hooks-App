@@ -32,7 +32,7 @@ export const Navbar = () => {
               }
               to="/Login"
             >
-              About
+              Login
             </NavLink>
           </ul>
         </div>
