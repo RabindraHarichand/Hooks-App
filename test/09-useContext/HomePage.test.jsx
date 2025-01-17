@@ -29,8 +29,6 @@ describe("Pruebas en HomePage", () => {
 
     const preTag = screen.getByLabelText("pre"); //aria-label
 
-    console.log(preTag.innerHTML);
-
     expect(preTag.innerHTML).toContain(JSON.stringify(user, null, 3));
     expect(preTag.innerHTML).toContain(user.name);
     expect(preTag.innerHTML).toContain(`${user.id}`);
